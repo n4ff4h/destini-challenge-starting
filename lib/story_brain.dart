@@ -63,6 +63,7 @@ class StoryBrain {
     } else if (_storyNumber == 3 || _storyNumber == 4 || _storyNumber == 5) {
       restart();
     }
+    print(_storyNumber);
   }
 
   void restart() {
